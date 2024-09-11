@@ -1,6 +1,6 @@
 {
   "name": "sg-email-service",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A package for sending emails using SMTP.",
   "main": "dist/index.js",
   "types": "types/sg-email-service.d.ts",
