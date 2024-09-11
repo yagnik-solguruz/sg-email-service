@@ -1,6 +1,6 @@
 {
   "name": "sg-email-service",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A package for sending emails using SMTP.",
   "main": "dist/index.js",
   "types": "types/sg-email-service.d.ts",
@@ -18,5 +18,19 @@
   },
   "peerDependencies": {
     "nodemailer": "^6.7.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yagnik-solguruz/sg-email-service"
+  },
+  "files": [
+    "dist/",
+    "types/"
+  ],
+  "author": "Yagnik",
+  "license": "ISC",
+  "keywords": [
+    "email service",
+    "nodemailer"
+  ]
 }
