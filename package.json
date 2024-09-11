@@ -1,0 +1,22 @@
+{
+  "name": "sg-email-service",
+  "version": "1.0.0",
+  "description": "A package for sending emails using SMTP.",
+  "main": "dist/index.js",
+  "types": "types/sg-email-service.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "nodemailer": "^6.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.108",
+    "@types/nodemailer": "^6.4.15",
+    "typescript": "^4.5.4"
+  },
+  "peerDependencies": {
+    "nodemailer": "^6.7.1"
+  }
+}
